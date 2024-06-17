@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .container {
+            margin: 20px;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">Patients</a></li>
+                <li><a href="#">Medical Records</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="overview">
+            <h2>Overview</h2>
+            <p>Total Registered Users: [Number]</p>
+            <p>Appointments Today: [Number]</p>
+            <p>Revenue Today: [Amount]</p>
+            <p>Pending Tasks: [Number]</p>
+        </section>
+
+        <section class="user-management">
+            <h2>User Management</h2>
+            <ul>
+                <li><a href="#">Add New User</a></li>
+                <li><a href="#">View/Edit Users</a></li>
+                <li><a href="#">Delete User</a></li>
+            </ul>
+        </section>
+
+        <!-- Other sections go here -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Healthcare Website</p>
+    </footer>
+</body>
+
+</html>
